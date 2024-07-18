@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <title>Agenda Telefonica</title>
+</head>
+<body>
+
+  <header>
+    <img src="./imagem/1801457.png" alt="Icone agenda telefonica">
+    <h1>Agenda Telefonica</h1>
+  </header>
+  <form id="formCall">
+    <input type="text" id="nome" placeholder="Digite seu nome" required>
+    <input type="tel" id="telefone" name="telefone" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}" placeholder="XX-XXXXX-XXXX" required>
+    <button type="submit">Cadastrar</button>
+  </form>
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Contato</th>
+      </tr>
+      <tbody>
+        <tr>
+          <td>Sandro</td>
+          <td>(82) 99999-4660</td>
+          <td>
+            <button type="submit">Excluir</button>
+          </td>
+        </tr>
+      </tbody>
+    </thead>
+  </table>
+  
+</body>
+</html>
